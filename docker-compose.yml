@@ -2,7 +2,7 @@ version: "3.5"
 services:
   jenkins:
     container_name: jenkins
-    image: cloudacademydevops/jenkins:2.453-jdk11
+    image: cloudacademydevops/jenkins:2.453-jdk11-sonarqube
     networks:
       - cloudacademylabs
     ports:
